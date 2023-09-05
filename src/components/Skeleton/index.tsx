@@ -39,6 +39,7 @@ export const Skeleton: FC<ISkeleton> = ({
     >
       {Array.from({ length: rest.total ?? 1 }, (_, index) => (
         <S.Cube
+          key={index}
           data-test-class="skeleton-cube"
           variant={variant}
           animation={animation}
