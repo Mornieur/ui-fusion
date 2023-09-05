@@ -1,5 +1,6 @@
 'use client';
 
+import StyledComponentsRegistry from 'lib/register';
 import { GlobalStyle } from '../global/theme';
 import type { Metadata } from 'next';
 
@@ -16,8 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <GlobalStyle />
-        {children}
+        <StyledComponentsRegistry>
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
