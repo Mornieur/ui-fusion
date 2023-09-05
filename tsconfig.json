@@ -1,28 +1,52 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@global/*": ["global/*"],
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@pages/*": ["containers/*"],
+      "@UI/*": ["global/components/UI/*"],
+      "@assets/*": ["assets/*"],
+      "@utils/*": ["utils/*"],
+      "@hooks/*": ["hooks/*"],
+      "@services/*": ["services/*"],
+      "@api": ["services/_api/index.ts"],
+      "@context/*": ["context/*"],
+      "@types/*": ["jest/src/@types/*"],
+      "@reducers/*": ["reducers/*"],
+      "@animations/*": ["global/animations/*"]
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "noEmit": true,
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "../../node_modules/cypress",
+    ".next/types/**/*.ts",
+    "src/**/*.ts",
+    "src/tests/setupTests.ts",
+    "test.js"
+  ],
   "exclude": ["node_modules"]
 }
