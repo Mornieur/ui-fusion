@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+  <h1>⚠ Under Development ⚠</h1>
+</div>
+
+Ui-Fusion is a collection of UI components developed using React, Next.js, TypeScript, Styled Components, Jest, Testing Library, and Storybook. This project serves as a comprehensive UI components library along with testing and documentation features.
+
+## Project Status: ⚠ Under Development ⚠
+
+This repository contains a library of reusable UI components, complete with testing and documentation using Storybook. The primary goal of this project is to showcase the usage of various technologies and best practices in building modern UI components.
 
 ## Getting Started
 
-First, run the development server:
+To get started with using and contributing to Ui-Fusion, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository to your local machine.
+2. Install the dependencies using `yarn install`.
+3. Run the project locally using `yarn dev`.
+4. View the Storybook documentation by running `yarn storybook`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project is organized as follows:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* `src/components/`: Directory containing the reusable UI components.
+* `src/stories/`: Directory containing Storybook stories for each component.
+* `src/utils/`: Directory containing utility functions and helpers.
+* `src/styles/`: Directory containing global styles and theme configuration.
 
-## Learn More
+## Testing
 
-To learn more about Next.js, take a look at the following resources:
+The project uses Jest and Testing Library for unit testing. Run tests using the command `yarn test`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Storybook Documentation
 
-## Deploy on Vercel
+The documentation for the UI components is built using Storybook. To view the documentation locally, run `yarn storybook` and navigate to the provided URL in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* React
+* Next.js
+* TypeScript
+* Styled Components
+* Jest
+* Testing Library
+* Storybook
+
+Feel free to explore, utilize, and contribute to this project to enhance your understanding of UI component development and best practices.
+
