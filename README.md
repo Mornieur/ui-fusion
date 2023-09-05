@@ -1,5 +1,5 @@
 <div align='center'>
-  <h1>⚠ Under Development ⚠</h1>
+  <h1>🌪 Ui Funsion 🌪</h1>
 </div>
 
 Ui-Fusion is a collection of UI components developed using React, Next.js, TypeScript, Styled Components, Jest, Testing Library, and Storybook. This project serves as a comprehensive UI components library along with testing and documentation features.
