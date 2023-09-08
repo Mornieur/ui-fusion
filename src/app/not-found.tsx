@@ -1,4 +1,8 @@
+'use client'
 import { Metadata } from "next"
+import * as S from '@styles/not-found'
+// import ImageError from '@assets/404_errorImage.svg'
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: 'Página 404',
@@ -7,8 +11,9 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <div>
-      DEU ERRO KKKKKKKKKKKKKKKKKKK
-    </div>
+  
+    <S.Container>
+      sdass
+    </S.Container>
   )
 }

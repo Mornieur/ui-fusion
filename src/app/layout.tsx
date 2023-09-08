@@ -2,7 +2,7 @@
 
 import StyledComponentsRegistry from '../../lib/register';
 import { GlobalStyle } from '@global/theme';
-import * as S from '@styles/layout';
+import * as S from '@styles/layout'
 import { componentsList } from 'data/components';
 import type { Metadata } from 'next';
 
